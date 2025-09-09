@@ -1,4 +1,6 @@
 #include "bits/stdc++.h"
+#include <vec3.h>
+#include <color.h>
 
 int main(){
   // Image
@@ -11,17 +13,12 @@ int main(){
   for(int j = 0; j < img_h; ++j){
     std::clog << "\rScanlines remaining: " << (img_h - j) << ' ' << std::flush;
     for(int i = 0; i < img_w; i++){
-      auto r = double(i) / (img_w - 1);
-      auto g = double(j) / (img_h - 1);
-      auto b = 0.0;
-
-      int ir = int(255.99 * r);
-      int ig = int(255.99 * g);
-      int ib = int(255.99 * b);
-      
-      std::cout << ir << " " << ig << " " << ib << "\n"; 
+      auto pixel_color = color(double(i)/ (img_w-1), double(j)/(img_h-1), 0);
+      write_Color(std::cout, pixel_color);
 
     }
   }
+  std::clog << "\nDone.\n";
+  return 0;
  }
 
