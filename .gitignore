@@ -1,0 +1,9 @@
+/build
+
+# Init: - Initial setup, project structure, first implementations
+# Feat: - New features, major additions
+# Mod: - Modify existing functionality, updates
+# Fix: - Bug fixes, corrections, patches
+# Ref: - Refactor, cleanup, restructure
+# Del: - Remove code, features, files
+# Cfg: - Configuration, settings, build files
