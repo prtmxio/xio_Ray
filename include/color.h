@@ -2,7 +2,7 @@
 #define COLOR_H
 
 #include <vec3.h>
-#include <bits/stdc++.h>
+#include "header.h"
 
 using color = vec3;
 void write_Color(std::ostream& out, const color& pixel_color){

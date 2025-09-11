@@ -1,7 +1,7 @@
 #ifndef VEC3_H
 #define VEC3_H
 
-#include <bits/stdc++.h>
+#include <header.h>
 class vec3{
    public:
      double e[3];
